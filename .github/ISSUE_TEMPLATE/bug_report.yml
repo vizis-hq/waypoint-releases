@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in Waypoint doesn't work as expected
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Waypoint version and build
+      description: Shown in Settings › General and in the menu bar menu.
+      placeholder: "0.1.0 (a75b80f)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.5 (Apple silicon)"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - Desktop window
+        - Menu bar
+        - Browser panel
+        - Right-click menu or ⌥⇧S
+        - Agent (MCP)
+        - Import / export / backups
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and its version (if it's about the panel)
+      placeholder: "Zen 1.14"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Drag a tab onto the group "Work"
+        2. …
