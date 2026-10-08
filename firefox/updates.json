@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "waypoint@vizis": {
+      "updates": [
+        {
+          "version": "0.2.2",
+          "update_link": "https://github.com/vizis-hq/waypoint-releases/releases/download/v0.2.2/waypoint-firefox.xpi"
+        }
+      ]
+    }
+  }
+}
