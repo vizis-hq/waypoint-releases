@@ -93,6 +93,10 @@
         {
           "version": "0.16.4",
           "update_link": "https://github.com/vizis-hq/waypoint-releases/releases/download/v0.16.4/waypoint-firefox.xpi"
+        },
+        {
+          "version": "0.17.0",
+          "update_link": "https://github.com/vizis-hq/waypoint-releases/releases/download/v0.17.0/waypoint-firefox.xpi"
         }
       ]
     }
